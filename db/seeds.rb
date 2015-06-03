@@ -15,7 +15,7 @@ signs = Sign.create([
        stone: "ruby", 
        metal: "iron", 
        related_body_part: "head" 
-     }
+     },
 
     {
        name: "Taurus",
