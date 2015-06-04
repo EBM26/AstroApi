@@ -72,7 +72,7 @@ signs = Sign.create([
 
      {
        name: "Libra", 
-       date: "September 23 - October 23",
+       date: "September 23 - October 22",
        element: "Air",
        stage: "Cardinal",
        planet: "Venus",
@@ -85,6 +85,40 @@ signs = Sign.create([
        stone: "sapphire",
        metal: "copper",
        related_body_part: "kidneys"
+     },
+
+     {
+       name: "Scorpio", 
+       date: "October 23 - November 22",
+       element: "Water",
+       stage: "Fixed",
+       planet: "Mars",
+       appearance: "Scorpio usually has a medium or short height; seldom tall. His overall build is broad framed. The weight seems to be concentrated on the lower half of his body. His legs are often short, giving the impression that Scorpio is shorter than he actually is. Scorpio’s most distinguished feature is the concentrated, electrifying power which surrounds his presence. His other most distinguished feature is his penetrating, hypnotizing, and powerful gaze. It’s as if Scorpio’s eyes are penetrating deep into your soul and reading your every secret. His eyebrows are set in a little frown.",
+       karmic_stage: "Sexuality",
+       strengths: "Scorpio’s strong traits are: trustworthiness, strong will power, charm, sensitivity, wisdom, and an uncanny ability to read and understand people. Scorpio is ruled by Mars so that means he has a vast amount of energy and resilience; he rarely gets sick for a long time. Scorpio has a deep connection with mysticism and his high intuition is very strong.",
+       weaknesses: "Scorpio’s weaknesses are: ruthlessness, jealousy, revengefulness, sadism, overly-suspicious, inflexibility, and over-controlling.",
+       hobbies: "Scorpio enjoys past-times that involve intense concentration and risk. Scorpio is quite the daredevil who enjoys conquering his fears. Deep sea diving is a sport Scorpio enjoys greatly. Scorpio represents the “Sexuality” stage which means, of course, that human sexuality is of great interest and pleasure to him.",
+       color: "black",
+       stone: "jasper",
+       metal: "iron",
+       related_body_part: "genitals"
+     },
+
+     {
+       name: "Sagittarius", 
+       date: "November 23 - December 21",
+       element: "Fire",
+       stage: "Mutable",
+       planet: "Jupiter",
+       appearance: "Sagittarius usually has a medium to tall height, occasionally very tall. They have been known to have long limbs, especially the legs. Very athletically built. Rarely will you meet an overweight Sagittarius since they are always on the move and burning fat. They are known to have long faces, especially a big head and tall forehead which is their most distinguished feature.",
+       karmic_stage: "Mid-Life",
+       strengths: "Sagittarius’ main strengths are openness, gaiety, rationality, integrity, daringness, and excitement. They are very optimistic to the point that they see the positive side in everything and therefore possess incredible luck and fortune. They are confident they can solve any problem and are invincible.",
+       weaknesses: "Sagittarius’ weaknesses are: recklessness, impatience, emotional perplexity, tactless, vulgarity, and instability.",
+       hobbies: "Sagittarius love to travel. They enjoy the actual travel more than the destination itself. They love to discover new lands and people. They love sports that require a lot of movement.",
+       color: "blue",
+       stone: "amethyst",
+       metal: "tin",
+       related_body_part: "thighs"
      }    
 
 
