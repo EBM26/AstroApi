@@ -32,6 +32,23 @@ signs = Sign.create([
        stone: "emerald",
        metal: "copper",
        related_body_part: "throat"
+     },
+
+     {
+       name: "Gemini", 
+       date: "May 22 - June 21",
+       element: "Air",
+       stage: "Mutable",
+       planet: "Mercury",
+       appearance: "Gemini usually has a tall, narrow body. His body is quite well balanced in both upper and lower sections. The most distinguished features of a Gemini are that he talks constantly about everything and anything, making many fast hand gestures while doing so. His eyes are very playful and constantly move from one location to the next; never resting on one object for more than a couple of seconds.",
+       karmic_stage: "Child",
+       strengths: "Gemini’s strong traits are: versatility, mental alertness, quick-perception, flexibility, logical thinking, and great communication abilities. Gemini is said to be able to read and understand everything, and from here is his talent for different languages. His mind is very sharp; he understands and learns new things at a very fast pace. His ability to see two sides of every concept/situation makes him very good at cataloging, categorizing, defining, and qualifying things/people/concepts/etc. He is a master of persuasion and getting his point across.",
+       weaknesses: "Gemini's weaknesses are: restlessness, shallowness, evasiveness, unreliability, and self-delusion.",
+       hobbies: "Gemini enjoys activities that are fast-paced, diverse, interesting, and give his mind a good workout. He also would like to exercise his other talent while doing things; communicating with others. Therefore, the racquet sports such as: tennis, badminton, etc. are often Gemini’s favorite sport. He loves to exercise his mind in games of wit and intellectual challenge.",
+       color: "yellow",
+       stone: "topaz",
+       metal: "mercury",
+       related_body_part: "hands"
      }    
 
 
