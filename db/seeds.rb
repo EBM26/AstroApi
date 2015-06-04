@@ -33,7 +33,7 @@ signs = Sign.create([
        metal: "copper",
        related_body_part: "throat"
      },
-
+     ## Missing Cancer, insert here before Leo when finished with summary
      {
        name: "Gemini", 
        date: "May 22 - June 21",
@@ -49,6 +49,42 @@ signs = Sign.create([
        stone: "topaz",
        metal: "mercury",
        related_body_part: "hands"
+     },
+
+     {
+       name: "Leo", 
+       date: "July 23 - August 23",
+       element: "Fire",
+       stage: "Fixed",
+       planet: "Sun",
+       appearance: "Leo has a medium to tall height, seldom short. He is broad across the shoulders and narrow hipped with an athletic built. His face features are bold and handsome. His forehead is broad and flat with the eyes looking out from under it. He usually has a thick head of hair that waves backwards, just like a lion’s mane. His most distinguished feature is the proud manner in which he carries himself, standing as tall as he can, chest out, and head held up high as is fit for a king.",
+       karmic_stage: "Teenager",
+       strengths: "Leo’s strong traits are: warm-heartedness, kindness, generosity, charisma, leadership, courage, and gentleness.",
+       weaknesses: "Leo's weaknesses are: arrogance, foolish pride, tyranny, boastfulness, and over-controlling.",
+       hobbies: "Leo's hobbies are sports, theater, and playing the crowd.",
+       color: "gold",
+       stone: "diamond",
+       metal: "gold",
+       related_body_part: "heart"
+     },
+
+     #Missing Virgo, insert here when finished with summary
+
+     {
+       name: "Libra", 
+       date: "September 23 - October 23",
+       element: "Air",
+       stage: "Cardinal",
+       planet: "Venus",
+       appearance: "Libra’s bodies and faces are like their life goal, balanced. Slim, yet with enough curves not to be angular. Fair face and complexion. Their body moves with grace. One distinguishable mark is the dimples on their faces, either in their cheeks or in the middle of their chins.",
+       karmic_stage: "Marriage",
+       strengths: "Libra’s strengths are: an extreme sense of justice and fairness, is very understanding, charming, delicate, and emotionally balanced (once he has reached that point).  Libra is a master of communication and contact with others.  He is a master in planning things out and is often victorious because of his keen ability to see both sides of the coin properly and thus plan according to all sides.",
+       weaknesses: "Libra’s weaknesses are: laziness, indecision, argumentativeness, lustfulness, and ill-temperedness.",
+       hobbies: "Libra’s love music, dance, art, and an intellectually stimulating conversation and/or argument with a formidable partner",
+       color: "green",
+       stone: "sapphire",
+       metal: "copper",
+       related_body_part: "kidneys"
      }    
 
 
