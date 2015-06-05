@@ -22,7 +22,7 @@ signs = Sign.create([
        date: "April 21 - May 21",
        element: "Earth",
        stage: "Fixed",
-       planet: "Venus",
+       planet: "Venus", #spruce up hobbies 
        appearance: "Taurus has a medium to short height, rarely tall. His body is unusually rectangular, broad, and solid built. The upper half is much broader and stronger than the lower half. Strong, short neck. Broad face. Strong, distinguished jaws. Long vertical ears that tend to stick out from his head like a bull.",
        karmic_stage: "Baby",
        strengths: "Taurus' strengths are: determination, persistence, patience, efficiency, stability, reliability, rationality, sensuality",
@@ -75,7 +75,7 @@ signs = Sign.create([
        date: "September 23 - October 22",
        element: "Air",
        stage: "Cardinal",
-       planet: "Venus",
+       planet: "Venus", ## spruce up Libra's appearance including making it all singular form
        appearance: "Libra’s bodies and faces are like their life goal, balanced. Slim, yet with enough curves not to be angular. Fair face and complexion. Their body moves with grace. One distinguishable mark is the dimples on their faces, either in their cheeks or in the middle of their chins.",
        karmic_stage: "Marriage",
        strengths: "Libra’s strengths are: an extreme sense of justice and fairness, is very understanding, charming, delicate, and emotionally balanced (once he has reached that point).  Libra is a master of communication and contact with others.  He is a master in planning things out and is often victorious because of his keen ability to see both sides of the coin properly and thus plan according to all sides.",
@@ -109,7 +109,7 @@ signs = Sign.create([
        date: "November 23 - December 21",
        element: "Fire",
        stage: "Mutable",
-       planet: "Jupiter",
+       planet: "Jupiter", ## fix appearance singular form and also hobbies, add sports
        appearance: "Sagittarius usually has a medium to tall height, occasionally very tall. They have been known to have long limbs, especially the legs. Very athletically built. Rarely will you meet an overweight Sagittarius since they are always on the move and burning fat. They are known to have long faces, especially a big head and tall forehead which is their most distinguished feature.",
        karmic_stage: "Mid-Life",
        strengths: "Sagittarius’ main strengths are openness, gaiety, rationality, integrity, daringness, and excitement. They are very optimistic to the point that they see the positive side in everything and therefore possess incredible luck and fortune. They are confident they can solve any problem and are invincible.",
@@ -119,6 +119,40 @@ signs = Sign.create([
        stone: "amethyst",
        metal: "tin",
        related_body_part: "thighs"
+     }, 
+
+     {
+       name: "Capricorn", 
+       date: "December 22 - January 20",
+       element: "Earth",
+       stage: "Cardinal",
+       planet: "Saturn",
+       appearance: "Capricorn are usually medium or short height, rarely tall. They are usually well-built and have a good structural outline. Capricorns have a compact, almost condensed look to them, as though they have been made with as little material as possible as to not waste any. The Capricorn will appear as if he is planted inside the ground until he decides to move to another spot. This sign usually has strong legs. There is often a twist somewhere the Capricorn physique; sometimes one shoulder is much higher than the other, or one knee is slightly askew so that their walk is imbalanced. All their movements are rather stiff and defensive.",
+       karmic_stage: "Old Age",
+       strengths: "Capricorn’s strong traits are: determination, stability, wisdom, dependability, hard-working, diligence, serenity, and self-assurance.",
+       weaknesses: "Capricorn’s weaknesses traits are: selfishness, bigotry, inflexibility, snobbery, excessive greed, and a tendency towards depression and loneliness.",
+       hobbies: "Capricorn enjoys physical activities that incorporate toughness and endurance over strength and speed such as marathon running, rock climbing, long-distance cycling, etc. He is way too serious to have many past-times",
+       color: "black",
+       stone: "onyx",
+       metal: "lead",
+       related_body_part: "knees"
+     },
+
+     {
+       name: "Aquarius", 
+       date: "January 21 - February 18",
+       element: "Air",
+       stage: "Fixed",
+       planet: "Saturn",
+       appearance: "Aquarius usually has a medium to tall height; seldom very short. He appears to be very light in physical manner even though he is quite strong. The body outline is quite angular, yet he moves with great fluency. He has square shoulders, holds his head high and his back straight. Aquarius‘s most distinguishable features are that everything about him seems cleaner of line, better defined, less blurred, and very fresh. It is almost as if his body is communicating his futuristic manner. Also, since Aquarius is usually dreaming about the future, there is a vague, dreamy, and distant look in his eyes; something that conveys mysterious knowledge.",
+       karmic_stage: "Rebirth",
+       strengths: "Aquarius’s strong traits are: individuality, tolerance, friendliness (Aquarians are the friendliest of all signs), ingenuity, inventiveness, originality, and genius.  Aquarius is a great visionary and often correctly predicts the future of mankind, technology, trends, politics, etc. He is obsessed with the future and excels in the latest technologies and gadgets. He has a very strong intuition and sixth sense; almost on the verge of ESP.",
+       weaknesses: "Aquarius’s potential weaknesses are: weirdness, irritability, disconnection from reality, absent-mindedness, and an overall refusal to cooperate. Aquarius is in the far corner of the lunar signs and is of the Air element which makes him cold emotionally.",
+       hobbies: "Aquarius is usually too immersed in his studies, work, causes, etc. to have time for hobbies. If he does find a bit of time, these hobbies will revolve around his element; air. Aquarius likes brisk walks, runs, climbing, tennis, driving fast with the top down or anything that allows him to feel and be one with the air. Aquarius also loves to have and tinker with new gadgets and other forms of mechanics. He is also a big fan of socializing; there he gets to “pick the brains” and closely examine new human behaviors.",
+       color: "sky blue",
+       stone: "sapphire",
+       metal: "cast",
+       related_body_part: "lower legs"
      }    
 
 
