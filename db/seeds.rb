@@ -33,7 +33,7 @@ signs = Sign.create([
        metal: "copper",
        related_body_part: "throat"
      },
-     ## Missing Cancer, insert here before Leo when finished with summary
+     
      {
        name: "Gemini", 
        date: "May 22 - June 21",
@@ -50,10 +50,10 @@ signs = Sign.create([
        metal: "mercury",
        related_body_part: "hands"
      },
-
+     ## Missing Cancer, insert here before Leo when finished with summary
      {
        name: "Leo", 
-       date: "July 23 - August 23",
+       date: "July 23 - August 22",
        element: "Fire",
        stage: "Fixed",
        planet: "Sun",
@@ -68,7 +68,22 @@ signs = Sign.create([
        related_body_part: "heart"
      },
 
-     #Missing Virgo, insert here when finished with summary
+     {
+       name: "Virgo", 
+       date: "August 23 - September 22",
+       element: "Earth",
+       stage: "Mutable",
+       planet: "Mercury",
+       appearance: "Virgo usually has a medium to tall height; seldom short. Virgo’s body is usually long, narrow, and thin. No part of his physique, such as his hands and feet, ever seems disproportionately large. Even though the Virgo looks delicate and has delicate features, he is quite strong physically. Virgo’s most distinguishing features are his crystal clear eyes; shining with intelligence and clarity of thought. Another distinguishing feature of Virgo is the unusual distance between his hips and his waist.",
+       karmic_stage: "Adult",
+       strengths: "Virgo’s strong traits are: clear thinking, strong discernment, politeness, helpfulness, practicality, gentleness, self-righteousness, and a great sense for order and optimization.",
+       weaknesses: "Virgo’s weaknesses are: over-criticism, irritability, shyness, pessimism, low self-esteem, and fallacy.",
+       hobbies: "Virgo enjoys physical exercise, but he doesn’t enjoy direct competition, so team games or games for two are not so popular with this sign. His favorite sports are ones that involve regular and rhythmical body movement such as walking, hiking, golfing, and Virgo’s favorite; bicycling. Other past-times include craftsmanship; Virgo loves being busy with his hands and creating useful things. Some of these include areas such carpentry, mechanics, and fixing broken contraptions.",
+       color: "blue",
+       stone: "onyx",
+       metal: "mercury",
+       related_body_part: "intestines"
+     },
 
      {
        name: "Libra", 
