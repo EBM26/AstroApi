@@ -14,7 +14,7 @@ module Api
     render json: sign.to_json
 
     end
-    
+
   end
   
 end
