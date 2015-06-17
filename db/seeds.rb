@@ -2,6 +2,7 @@ signs = Sign.create([
 
     {
        name: "Aries", 
+       url_name: "aries",
        date: "March 21 - April 20",
        element: "Fire",
        stage: "Cardinal",
@@ -19,6 +20,7 @@ signs = Sign.create([
 
     {
        name: "Taurus",
+       url_name: "taurus",
        date: "April 21 - May 21",
        element: "Earth",
        stage: "Fixed",
@@ -36,6 +38,7 @@ signs = Sign.create([
      
      {
        name: "Gemini", 
+       url_name: "gemini",
        date: "May 22 - June 21",
        element: "Air",
        stage: "Mutable",
@@ -53,6 +56,7 @@ signs = Sign.create([
      ## Missing Cancer, insert here before Leo when finished with summary
      {
        name: "Leo", 
+       url_name: "leo",
        date: "July 23 - August 22",
        element: "Fire",
        stage: "Fixed",
@@ -70,6 +74,7 @@ signs = Sign.create([
 
      {
        name: "Virgo", 
+       url_name: "virgo",
        date: "August 23 - September 22",
        element: "Earth",
        stage: "Mutable",
@@ -87,6 +92,7 @@ signs = Sign.create([
 
      {
        name: "Libra", 
+       url_name: "libra",
        date: "September 23 - October 22",
        element: "Air",
        stage: "Cardinal",
@@ -104,6 +110,7 @@ signs = Sign.create([
 
      {
        name: "Scorpio", 
+       url_name: "scorpio",
        date: "October 23 - November 22",
        element: "Water",
        stage: "Fixed",
@@ -121,6 +128,7 @@ signs = Sign.create([
 
      {
        name: "Sagittarius", 
+       url_name: "sagittarius",
        date: "November 23 - December 21",
        element: "Fire",
        stage: "Mutable",
@@ -138,6 +146,7 @@ signs = Sign.create([
 
      {
        name: "Capricorn", 
+       url_name: "capricorn",
        date: "December 22 - January 20",
        element: "Earth",
        stage: "Cardinal",
@@ -154,7 +163,8 @@ signs = Sign.create([
      },
 
      {
-       name: "Aquarius", 
+       name: "Aquarius",
+       url_name: "aquarius", 
        date: "January 21 - February 18",
        element: "Air",
        stage: "Fixed",
