@@ -16,7 +16,8 @@ signs = Sign.create([
        stone: "ruby", 
        metal: "iron", 
        related_body_part: "head",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aries-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aries-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aries-picture.jpg"
      },
 
     {
@@ -35,7 +36,8 @@ signs = Sign.create([
        stone: "emerald",
        metal: "copper",
        related_body_part: "throat",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/taurus-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/taurus-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/taurus-picture.jpg"
      },
      
      {
@@ -74,7 +76,8 @@ signs = Sign.create([
        stone: "diamond",
        metal: "gold",
        related_body_part: "heart",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/leo-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/leo-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/leo-picture.jpg"
      },
 
      {
@@ -93,7 +96,8 @@ signs = Sign.create([
        stone: "onyx",
        metal: "mercury",
        related_body_part: "intestines",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/virgo-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/virgo-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/vrgo-picture.jpg"
      },
 
      {
@@ -112,7 +116,8 @@ signs = Sign.create([
        stone: "sapphire",
        metal: "copper",
        related_body_part: "kidneys",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/libra-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/libra-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/libra-picture.jpg"
      },
 
      {
@@ -131,7 +136,8 @@ signs = Sign.create([
        stone: "jasper",
        metal: "iron",
        related_body_part: "genitals",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/scorpio-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/scorpio-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/scorpio-picture.jpg"
      },
 
      {
@@ -150,7 +156,8 @@ signs = Sign.create([
        stone: "amethyst",
        metal: "tin",
        related_body_part: "thighs",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/sagg-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/sagg-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/sag-picture.jpg"
      }, 
 
      {
@@ -169,7 +176,8 @@ signs = Sign.create([
        stone: "onyx",
        metal: "lead",
        related_body_part: "knees",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/capricorn-symbol.jpg"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/capricorn-symbol.jpg",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/cap-picture.jpg"
      },
 
      {
@@ -188,7 +196,8 @@ signs = Sign.create([
        stone: "sapphire",
        metal: "cast",
        related_body_part: "lower legs",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aquarius-symbol.png"
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aquarius-symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aquarius-picture.jpg"
      }    
 
 
