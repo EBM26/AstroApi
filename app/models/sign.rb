@@ -17,6 +17,8 @@ class Sign
   field :stone, type: String
   field :metal, type: String
   field :related_body_part, type: String
+  field :symbol, type: String
+  field :picture, type: String
 
 
 end

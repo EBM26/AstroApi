@@ -15,7 +15,8 @@ signs = Sign.create([
        color: "red", 
        stone: "ruby", 
        metal: "iron", 
-       related_body_part: "head" 
+       related_body_part: "head",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aries-symbol.png"
      },
 
     {
@@ -33,7 +34,8 @@ signs = Sign.create([
        color: "green", 
        stone: "emerald",
        metal: "copper",
-       related_body_part: "throat"
+       related_body_part: "throat",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/taurus-symbol.png"
      },
      
      {
@@ -51,7 +53,9 @@ signs = Sign.create([
        color: "yellow",
        stone: "topaz",
        metal: "mercury",
-       related_body_part: "hands"
+       related_body_part: "hands",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/Gemini_symbol.png",
+       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/gemini-twins-logo.png"
      },
      ## Missing Cancer, insert here before Leo when finished with summary
      {
@@ -69,7 +73,8 @@ signs = Sign.create([
        color: "gold",
        stone: "diamond",
        metal: "gold",
-       related_body_part: "heart"
+       related_body_part: "heart",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/leo-symbol.png"
      },
 
      {
@@ -87,7 +92,8 @@ signs = Sign.create([
        color: "blue",
        stone: "onyx",
        metal: "mercury",
-       related_body_part: "intestines"
+       related_body_part: "intestines",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/virgo-symbol.png"
      },
 
      {
@@ -105,7 +111,8 @@ signs = Sign.create([
        color: "green",
        stone: "sapphire",
        metal: "copper",
-       related_body_part: "kidneys"
+       related_body_part: "kidneys",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/libra-symbol.png"
      },
 
      {
@@ -123,7 +130,8 @@ signs = Sign.create([
        color: "black",
        stone: "jasper",
        metal: "iron",
-       related_body_part: "genitals"
+       related_body_part: "genitals",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/scorpio-symbol.png"
      },
 
      {
@@ -141,7 +149,8 @@ signs = Sign.create([
        color: "blue",
        stone: "amethyst",
        metal: "tin",
-       related_body_part: "thighs"
+       related_body_part: "thighs",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/sagg-symbol.png"
      }, 
 
      {
@@ -159,7 +168,8 @@ signs = Sign.create([
        color: "black",
        stone: "onyx",
        metal: "lead",
-       related_body_part: "knees"
+       related_body_part: "knees",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/capricorn-symbol.jpg"
      },
 
      {
@@ -177,7 +187,8 @@ signs = Sign.create([
        color: "sky blue",
        stone: "sapphire",
        metal: "cast",
-       related_body_part: "lower legs"
+       related_body_part: "lower legs",
+       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aquarius-symbol.png"
      }    
 
 
