@@ -49,3 +49,5 @@ group :development, :test do
 end
 
 gem "passenger"
+
+gem 'bootstrap-sass', '~> 3.3.1'
