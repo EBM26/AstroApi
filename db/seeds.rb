@@ -15,9 +15,8 @@ signs = Sign.create([
        color: "red", 
        stone: "ruby", 
        metal: "iron", 
-       related_body_part: "head",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aries-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aries-picture.jpg"
+       related_body_part: "head"
+      
      },
 
     {
@@ -35,9 +34,7 @@ signs = Sign.create([
        color: "green", 
        stone: "emerald",
        metal: "copper",
-       related_body_part: "throat",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/taurus-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/taurus-picture.jpg"
+       related_body_part: "throat"
      },
      
      {
@@ -55,11 +52,29 @@ signs = Sign.create([
        color: "yellow",
        stone: "topaz",
        metal: "mercury",
-       related_body_part: "hands",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/Gemini_symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/gemini-twins-logo.png"
+       related_body_part: "hands"
+      
      },
-     ## Missing Cancer, insert here before Leo when finished with summary
+     
+     {
+       name: "Cancer", 
+       url_name: "cancer",
+       date: "June 22 - July 22",
+       element: "Water",
+       stage: "Cardinal",
+       planet: "Moon",
+       appearance: "Cancer usually has a medium to short height; seldom very tall. Cancer is known to have a round body type while most of his weight is concentrated in the body itself rather than in the limbs. Cancer’s face is usually round as well with a strong jaw line and winding eyebrows that seem to express a bid of sadness. His most distinguished feature are the three prominent points on his face that stick out; located on his chin and cheekbones.",
+       karmic_stage: "Puberty",
+       strengths: "Cancer’s strong traits are: imagination, dedication, gentleness, sensitivity towards others, and caution.",
+       weaknesses: "Cancer’s weaknesses are: stubbornness, cheapness, a short temper, sadness, fearfulness, co-dependency, and possessiveness.",
+       hobbies: "Cancer enjoys being by the quiet waters so fishing is a natural Cancer hobby. The more courageous Cancer will indulge in the aggressive water sports such as water-skiing, surfing, etc. Making money is another beloved Cancer past-time.",
+       color: "silver",
+       stone: "pearl",
+       metal: "silver",
+       related_body_part: "stomach"
+
+      },
+
      {
        name: "Leo", 
        url_name: "leo",
@@ -75,9 +90,8 @@ signs = Sign.create([
        color: "gold",
        stone: "diamond",
        metal: "gold",
-       related_body_part: "heart",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/leo-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/leo-picture.jpg"
+       related_body_part: "heart"
+      
      },
 
      {
@@ -95,9 +109,7 @@ signs = Sign.create([
        color: "blue",
        stone: "onyx",
        metal: "mercury",
-       related_body_part: "intestines",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/virgo-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/vrgo-picture.jpg"
+       related_body_part: "intestines"
      },
 
      {
@@ -115,9 +127,7 @@ signs = Sign.create([
        color: "green",
        stone: "sapphire",
        metal: "copper",
-       related_body_part: "kidneys",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/libra-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/libra-picture.jpg"
+       related_body_part: "kidneys"
      },
 
      {
@@ -135,9 +145,7 @@ signs = Sign.create([
        color: "black",
        stone: "jasper",
        metal: "iron",
-       related_body_part: "genitals",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/scorpio-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/scorpio-picture.jpg"
+       related_body_part: "genitals"
      },
 
      {
@@ -155,9 +163,7 @@ signs = Sign.create([
        color: "blue",
        stone: "amethyst",
        metal: "tin",
-       related_body_part: "thighs",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/sagg-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/sag-picture.jpg"
+       related_body_part: "thighs"
      }, 
 
      {
@@ -175,9 +181,7 @@ signs = Sign.create([
        color: "black",
        stone: "onyx",
        metal: "lead",
-       related_body_part: "knees",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/capricorn-symbol.jpg",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/cap-picture.jpg"
+       related_body_part: "knees"
      },
 
      {
@@ -195,9 +199,7 @@ signs = Sign.create([
        color: "sky blue",
        stone: "sapphire",
        metal: "cast",
-       related_body_part: "lower legs",
-       symbol: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aquarius-symbol.png",
-       picture: "https://s3-us-west-2.amazonaws.com/astro-api-pictures/aquarius-picture.jpg"
+       related_body_part: "lower legs"
      }    
 
 
