@@ -3,15 +3,15 @@
   <div class="container"><!-- start of grid container -->
 
     <div class="row"><!-- start of navbar row -->
-     <nav class="navbar navbar-default">
-          <a class="navbar-brand" href="#">
-         <%= image_tag("wheel.jpg", :alt => "rss feed", class: 'wheel') %>
-          The Astrology API</a>
+     <nav class="navbar navbar-default col-sm-8 col-sm-offset-2">
+          <a><%= image_tag("wheel.jpg", :alt => "rss feed", class: 'wheel') %>
+          <h3>The Astrology API</h3></a>
+          <%= link_to "Google", 'http://www.google.com' %>
      </nav>
     </div><!-- end of navbar row -->
 
     <div class="row"><!-- start of about box row -->
-      <div class="about-box">
+      <div class="about-box col-sm-8 col-sm-offset-2">
         <p>This is the box I will be writing about my API</p>
         <p>This is the box I will be writing about my API</p>
         <p>This is the box I will be writing about my API</p>
