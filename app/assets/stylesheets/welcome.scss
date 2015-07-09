@@ -1,5 +1,9 @@
 .about-box {
-  border: 3px solid red;
+
+  border-radius: 10px;
+  background-color: #82CAFF;
+  padding: 2% 2% 3% 3%; 
+  margin-bottom: 15%;
 }
 
 .wheel {
@@ -8,20 +12,24 @@
 }
 
 .soon-div {
-  color: red;
   float: right;
-
 }
 
+h4 {
+  color: white;
+}
 .navbar {
   margin-top: 5%;
   background-color: black;
+  border-radius: 10px;
+  margin-bottom: 5%;
 
 }
 
 h3 {
   color: white;
   font-size: 30px;
+
 }
 
 a:hover {
@@ -30,7 +38,47 @@ a:hover {
 
 .docs-div {
    margin-top: 10px;
+   color: white; 
 }
 
+h1 {
+  color:  #2B1B17;
+  padding-bottom: 3%;
+  margin-left: 1.5%;
 
+}
+
+p {
+  font-size: 20px;
+}
+
+.my-name {
+  color: red;
+}
+
+.simple-code {
+  padding: 3% 0 3% 0;
+  background-color: transparent;
+}
+
+.divider1 {
+  font-size: 20px;
+  color: white;
+}
+
+.divider2 {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 8%;
+}
+
+.Astro-map {
+  height: 320px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.simple-p {
+  color: white;
+}
 

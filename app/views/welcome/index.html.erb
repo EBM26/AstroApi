@@ -5,7 +5,7 @@
     <div class="row"><!-- start of navbar row -->
      <nav class="navbar navbar-default col-sm-8 col-sm-offset-2">
 
-       <div class="brand-div col-sm-2">
+       <div class="brand-div text-left col-sm-2">
         <%= link_to 'http://www.astrology-api.com/' do %>
         <%= image_tag("wheel.jpg", :alt => "rss feed", class: 'wheel') %>
       </div>
@@ -22,7 +22,7 @@
 
       </div>
 
-      <div class="soon-div col-sm-3 col-sm-offset-1">
+      <div class="col-sm-3 col-sm-offset-1 soon-div">
         <%= link_to 'http://www.astrology-api.com/' do %>
         <h4>Coming Soon</h4>
         <% end %>
@@ -33,16 +33,45 @@
 
   <div class="row"><!-- start of about box row -->
     <div class="about-box col-sm-8 col-sm-offset-2">
-      <p>This is the box I will be writing about my API</p>
-      <p>This is the box I will be writing about my API</p>
-      <p>This is the box I will be writing about my API</p>
+      <h1>Introducing the first Astrology API ever! Easy to use and very useful. </h1>
 
-      <p>This is the box I will be writing about my API</p>
+      <div class="col-sm-5">
+      <p>This is the very first Astrology API that contains the essential information that every developer that is working on an Astrology application or website needs. </p>
+      </div>
 
-      <p>This is the box I will be writing about my API</p>
+      <div class="col-sm-offset-1 col-sm-5">
+      <p>Created by <%= link_to "EBM26", "http://www.eyalbenmoshe.com/", class: "my-name", :target => '_blank' %>, a web developer who is passionate about coding and Astrology and decided to put them both together for the benefit of the development community!</p>
+      </div> 
+
+<div class="col-sm-offset-1 col-sm-11 divider1">
+  ----------------------------------------------------------------------
+  </div>
+      <div class="col-sm-offset-1 col-sm-10 simple-code">
+   
+      <p class="simple-p">This API uses a simple Json interface. Just a few lines of simple code allow you to call on the information provided!</p>
+
+      </div>
+
+      <div class="col-sm-offset-1 col-sm-11 divider2">
+  ----------------------------------------------------------------------
+  </div>
+
+  <div class="col-sm-6">
+    <p>Some text</p>
+  </div>
+
+  <div class="col-sm-6">
+    <%= image_tag "Astro-map.jpg", class: "Astro-map" %>
+  </div>
+      
+
+    </div><!-- end of about-box div -->
 
 
-    </div>
+
+
+
+
   </div><!-- end of about box row -->
 </div><!-- end of grid container -->
 
