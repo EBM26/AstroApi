@@ -3,10 +3,14 @@
 }
 
 .wheel {
-  height: 50px;
-  float: left;
-  margin-top: .5%;
-  
+  height: 60px;
+  margin-top: 10%;
+}
+
+.soon-div {
+  color: red;
+  float: right;
+
 }
 
 .navbar {
@@ -16,11 +20,17 @@
 }
 
 h3 {
-  padding-left: 10%;
   color: white;
-  padding-bottom: .5%;
+  font-size: 30px;
 }
 
 a:hover {
     text-decoration: none;
 }
+
+.docs-div {
+   margin-top: 10px;
+}
+
+
+

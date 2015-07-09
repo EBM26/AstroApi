@@ -4,26 +4,46 @@
 
     <div class="row"><!-- start of navbar row -->
      <nav class="navbar navbar-default col-sm-8 col-sm-offset-2">
-          <a><%= image_tag("wheel.jpg", :alt => "rss feed", class: 'wheel') %>
-          <h3>The Astrology API</h3></a>
-          <%= link_to "Google", 'http://www.google.com' %>
-     </nav>
-    </div><!-- end of navbar row -->
 
-    <div class="row"><!-- start of about box row -->
-      <div class="about-box col-sm-8 col-sm-offset-2">
-        <p>This is the box I will be writing about my API</p>
-        <p>This is the box I will be writing about my API</p>
-        <p>This is the box I will be writing about my API</p>
+       <div class="brand-div col-sm-2">
+        <%= link_to 'http://www.astrology-api.com/' do %>
+        <%= image_tag("wheel.jpg", :alt => "rss feed", class: 'wheel') %>
+      </div>
 
-        <p>This is the box I will be writing about my API</p>
+      <div class="title-div col-sm-5">
+        <h3>The Astrology API</h3>
+        <% end %>
+      </div>
 
-        <p>This is the box I will be writing about my API</p>
-
+      <div class="col-sm-2">
+        <%= link_to 'http://www.astrology-api.com/' do %>
+        <h4 class="docs-div">API Docs</h4>
+        <% end %>
 
       </div>
-    </div><!-- end of about box row -->
-  </div><!-- end of grid container -->
-  <a href="http://www.astrology-api.com/api/signs">Go to all signs API</a>
+
+      <div class="soon-div col-sm-3 col-sm-offset-1">
+        <%= link_to 'http://www.astrology-api.com/' do %>
+        <h4>Coming Soon</h4>
+        <% end %>
+      </div>
+
+    </nav>
+  </div><!-- end of navbar row -->
+
+  <div class="row"><!-- start of about box row -->
+    <div class="about-box col-sm-8 col-sm-offset-2">
+      <p>This is the box I will be writing about my API</p>
+      <p>This is the box I will be writing about my API</p>
+      <p>This is the box I will be writing about my API</p>
+
+      <p>This is the box I will be writing about my API</p>
+
+      <p>This is the box I will be writing about my API</p>
+
+
+    </div>
+  </div><!-- end of about box row -->
+</div><!-- end of grid container -->
 
 </body>
