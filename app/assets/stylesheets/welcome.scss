@@ -3,13 +3,14 @@
   border-radius: 10px;
   background-color: #82CAFF;
   padding: 2% 2% 3% 3%; 
-  margin-bottom: 8%;
+  margin-bottom: 3%;
+
 }
 
 .wheel {
   height: 60px;
   margin-top: 10%;
-  padding-bottom: 5%;
+  margin-bottom: 9%;
 }
 
 .soon-div {
@@ -25,6 +26,7 @@ h4 {
   background-color: black;
   border-radius: 10px;
   margin-bottom: 5%;
+  border: transparent;
 
 }
 
@@ -87,4 +89,17 @@ p {
 .footer-text {
   font-size: 15px;
   margin-bottom: 5%;
+
+}
+
+body {
+   background: url('Astro-map.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer-font {
+  color: white;
 }
