@@ -93,7 +93,7 @@ p {
 }
 
 body {
-   background: url('Astro-map.jpg') no-repeat center center fixed; 
+   background: image-url('Astro-map.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
