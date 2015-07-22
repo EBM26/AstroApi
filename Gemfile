@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'mongoid', '~> 4.0.0'
 
+gem 'metamagic' # genrates different titles and meta tags in views
 
  gem 'rails-api'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
