@@ -200,7 +200,32 @@ signs = Sign.create([
        stone: "sapphire",
        metal: "cast",
        related_body_part: "lower legs"
-     }    
+     },
+
+     {
+       name: "Pisces",
+       url_name: "pisces", 
+       date: "February 19 - March 20",
+       element: "Water",
+       stage: "Mutable",
+       planet: "Jupiter",
+       appearance: "Pisces usually has a medium to short height; seldom tall. Pisces’ weight is usually shifted to the lower part of his body; most commonly his legs. His most distinguished feature is the lack of firmness in his body frame; as if the very thing that stiffens everybody else’s body is missing from him. His eyes are watery, accompanied by heavy eye-lashes, and full of light; Pisces are known to have beautiful eyes, the mirrors to their beautiful souls. He has a floating walk; as if he just swims around when he walks. Pisces usually hangs his head low when he walks.",
+       karmic_stage: "Ancient Soul",
+       strengths: "Pisces’ strong traits are: humility, compassion, sensitivity, spiritual awareness, supernatural intuition, philosophical wisdom, and a special skill to heal people. In his strong state, Pisces knows exactly what he came into this world for, what he needs to fix, and the tools/skills/powers he needs to use to accomplish this life mission. Since Pisces is the last sign of the Zodiac, he has the ability to draw upon any strong feature that is found in any of the other 11 signs of the Zodiac.",
+       weaknesses: "The weaknesses of Pisces are: cowardice, timidity, masochism, laziness, weak-willed, and an inclination to lie. Pisces is sensitive to others’ hurtful remarks. His very kind and non-aggressive manner also makes him an easy target for those who wish to take advantage of him. Pisces’ number one weakness in life is the potential to float lazily through life without accomplishing much. It’s very easy for him to live in a dream state and allow himself to believe that he is advancing towards his ultimate goal while in reality he isn’t even in the right direction.",
+       hobbies: "Pisces is not particularly athletic and for sure not competitive. Therefore, the sports Pisces enjoys are more on the artistic, solo side. Pisces enjoys swimming, dancing, fishing, and all other water sports. His other hobbies usually have something to do with pictures; capturing their essence, feeling, and precise vision. Filming and photography are big on his list; so is going to the movies.",
+       color: "ocean blue",
+       stone: "amethyst",
+       metal: "tin",
+       related_body_part: "feet"
+
+
+     }
+
+
 
 
   ])
+
+
+
