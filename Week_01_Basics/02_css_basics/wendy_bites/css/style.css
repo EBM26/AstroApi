@@ -1,0 +1,25 @@
+body {
+    background: rgba(182, 226, 82, 0.7);
+    font-size: 18px;
+    line-height: 36px;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+p {
+        line-height: 48px;
+}
+
+blockquote {
+    font-size: 48px;
+    line-height: 48px;
+    padding: 48px;
+}
+
+#copyright {
+    font-style: italic;
+}
