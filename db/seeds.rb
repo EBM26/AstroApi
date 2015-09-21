@@ -15,7 +15,10 @@ signs = Sign.create([
        color: "red", 
        stone: "ruby", 
        metal: "iron", 
-       related_body_part: "head"
+       related_body_part: "head",
+       dislikes: "Aries dislikes authority since he believes he should always be the leader in every matter. He hates being criticized or told what to do. He hates sitting idly and not being active. People who complain a lot or feel sorry for themselves is another pet peeve of his.",
+       key_words: "Start, energy, I, me, myself, express, move, powerful, strong, driven, motivated.",
+       romance: "Aries looks for a mate from the fairy tales: beautiful, intelligent, always well-groomed, always smiling, sophisticated, and well-behaved. The female Aries despises a man that drools over her or is willing to be her slave. She likes a strong man who knows how to play hard to get. Most importantly, Aries wants someone who will be a part of the most important thing in his life; himself. Someone who will help Aries experience himself through life’s adventures."
       
      },
 
@@ -34,7 +37,10 @@ signs = Sign.create([
        color: "green", 
        stone: "emerald",
        metal: "copper",
-       related_body_part: "throat"
+       related_body_part: "throat",
+       dislikes: "Taurus hates fast changes and starting things over again. Hates irresponsibility, dishonesty, and disloyalty. Hates wasting energy for no reason. He dislikes loud-mouthed people that talk a lot. Hates breaking the rules and causing trouble. Hates being bossed around or controlled. Hates being disturbed during his quiet time and the act of someone invading his “territory”. Taurus is very territorial and keeps a vigilant watch over his “space”, loved ones, and properties.",
+       key_words: "Patience, stability, sense,reasonable, rational, mine, security, comfortable, reliable, responsible, honest, feel.",
+       romance: "Taurus is very easily hurt emotionally and wants someone who will be gentle with his feelings. He also wants someone that he can provide for and call his “own”, thus connecting to him/her. Since Taurus seeks to gain stability, it is very likely that a female Taurus will want someone with a solid job and financial stability. The male Taurus will look for someone who can care for them on a more physical level such as cooking, cleaning, etc. Both sexes will like someone who is outgoing and independent yet will stay away from loud and out of control individuals or ones that are promiscuous/not trustworthy."
      },
      
      {
@@ -52,7 +58,10 @@ signs = Sign.create([
        color: "yellow",
        stone: "topaz",
        metal: "mercury",
-       related_body_part: "hands"
+       related_body_part: "hands",
+       dislikes: "Gemini’s biggest dislike in this world is feeling tied down to anything for a long time, especially if that thing is boring or lacks variety. Boredom is Gemini’s enemy, and so is being tied down to static, daily responsibilities.",
+       key_words: "New, change, mind, challenge, travel, explore, interesting, idea, concept, research, write, communicate, if, maybe, update.",
+       romance: "Gemini is in search for a long-lasting relationship with a partner that is fun, adventurous, intelligent, diverse, easy-going, and fast-paced. He is not looking for something too serious and especially nothing that involves an intense emotional investment.  Gemini is also in need of someone with a grounded manner who can take care of him physically, provide some stability, and provide the safety he needs when he gets into a state of anxiety or fear."
       
      },
      
@@ -71,7 +80,10 @@ signs = Sign.create([
        color: "silver",
        stone: "pearl",
        metal: "silver",
-       related_body_part: "stomach"
+       related_body_part: "stomach",
+       dislikes: "Due to Cancer’s high emotional sensitivity, he naturally dislikes people or situations which are hurtful towards his feelings or the feelings of his loved ones. Messy homes are another pet peeve of a Cancer; so are people who squander their money or like to show off their wealth. Cancer highly dislikes being in dangerous or volatile situations.",
+       key_words: "Secure, safe, emotions, finance, saving, stable, caring, understanding, gentle, money.",
+       romance: "Cancer thrives upon building close, intimate relationships with people he likes so a romantic relationship, and especially marriage, is quite natural for him. Cancer males and females look for someone who is fun, gentle, and financially successful. Needless to say, both male and female Cancers are jealous lovers."
 
       },
 
@@ -90,7 +102,10 @@ signs = Sign.create([
        color: "gold",
        stone: "diamond",
        metal: "gold",
-       related_body_part: "heart"
+       related_body_part: "heart",
+       dislikes: "Leo hates being talked to crudely, insultingly, disrespectfully or any other way that does not suite his kingly manner. He hates failing or losing. He is very protective of his position, loved ones, possessions, or anything else that has to do with him and hates when people are disrespectful to any of the above mentioned. He strongly dislikes when people undermine his authority or don’t listen to what he says.",
+       key_words: "I, me, fancy, royal, noble, warm, generous, admirable, brave, exquisite, special, love, loyalty.",
+       romance: "Leo loves beauty and so that is important in a mate. Since he believes himself to be of royal blood, a mate of a classier, more refined manner is required.  Leo wants someone he can give his over-flowing love, warmth, and generosity who will in turn admire him and shower him with compliments. He wants someone who will not mind him taking charge and giving out orders, someone who will march to the beat of his drum."
       
      },
 
@@ -105,11 +120,15 @@ signs = Sign.create([
        karmic_stage: "Adult",
        strengths: "Virgo’s strong traits are: clear thinking, strong discernment, politeness, helpfulness, practicality, gentleness, self-righteousness, and a great sense for order and optimization.",
        weaknesses: "Virgo’s weaknesses are: over-criticism, irritability, shyness, pessimism, low self-esteem, and fallacy.",
-       hobbies: "Virgo enjoys physical exercise, but he doesn’t enjoy direct competition, so team games or games for two are not so popular with this sign. His favorite sports are ones that involve regular and rhythmical body movement such as walking, hiking, golfing, and Virgo’s favorite; bicycling. Other past-times include craftsmanship; Virgo loves being busy with his hands and creating useful things. Some of these include areas such carpentry, mechanics, and fixing broken contraptions.",
+       hobbies: "Virgo enjoys physical exercise, but he doesn't enjoy direct competition, so team games or games for two are not so popular with this sign. His favorite sports are ones that involve regular and rhythmical body movement such as walking, hiking, golfing, and Virgo’s favorite; bicycling. Other past-times include craftsmanship; Virgo loves being busy with his hands and creating useful things. Some of these include areas such carpentry, mechanics, and fixing broken contraptions.",
        color: "blue",
        stone: "onyx",
        metal: "mercury",
-       related_body_part: "intestines"
+       related_body_part: "intestines",
+       dislikes: "Even though Virgo himself constantly criticizes others (usually not out loud), he really dislikes being criticized. Virgo dislikes spending unnecessary money and is known to be a penny pincher.",
+       key_words: "Work, efficient, order, clean, gentle, clarity, purity, help, humility.",
+       romance: "Both Virgo sexes like the smart, accomplished, quiet, and humble mates. Virgo as a mate is very dependable, caring, and not the cheating or jealous type. Although either sexes are not known to very emotional and romantic, they are quite warm and passionate intimately. The Virgo female looks for a man who is diligent, hard-working, and well-mannered."
+
      },
 
      {
@@ -127,7 +146,10 @@ signs = Sign.create([
        color: "green",
        stone: "sapphire",
        metal: "copper",
-       related_body_part: "kidneys"
+       related_body_part: "kidneys",
+       dislikes: "Libra hates being rushed to make decision.  Hates being unfair or witnessing an injustice.  Hates doing things alone or being alone. Hates to lose.",
+       key_words: "fair, justice, balance, together, in common, similar, harmony",
+       romance: "Libras love romance and want a mate who will be charming and romantic like they are. The ideal mate for them would be one that can maintain mysteriousness or excitement for an infinite amount of time. They like someone who is classy and elegant like they are. They appreciate beauty and so would like for their mates to be good looking and well groomed. They are very intellectual and love arguing, therefore they want someone that can challenge their intellect and provide a stimulant conversation/argument."
      },
 
      {
@@ -145,7 +167,10 @@ signs = Sign.create([
        color: "black",
        stone: "jasper",
        metal: "iron",
-       related_body_part: "genitals"
+       related_body_part: "genitals",
+       dislikes: "Scorpio greatly dislikes people who try to lie, cheat, or deceive him. Scorpio needs to be in control at all times and so he dislikes surprises or unexpected situations. Scorpio is a defender of the weak and helpless and really hates it when people like that get picked on. The worst offense one can commit to a Scorpio is hurting him or his loved ones.",
+       key_words: "Trust, passion, protection, loyalty, compassion, challenge, brave, sex, safe, truth.",
+       romance: "Scorpio wants to be the more dominant one in the relationship and will often marry a woman that is fit to play that role. Trust is something a Scorpio highly values in a woman; he is quite the jealous and suspicious lover. The Scorpio female looks for a man who is brave and ambitious. It takes a very strong man to last more than a day with this woman; she will eat the weak ones alive. Extremely suspicious and jealous, Scorpio’s man will be wise if he let go of his female friends."
      },
 
      {
@@ -163,7 +188,10 @@ signs = Sign.create([
        color: "blue",
        stone: "amethyst",
        metal: "tin",
-       related_body_part: "thighs"
+       related_body_part: "thighs",
+       dislikes: "Sagittarius cannot stand a perversion of truth. Anything untrue in their eyes will be challenged by them even in the expense of hurting or embarrassing the person who said it. They absolutely hate being called dishonest or a liar. They strongly dislike being told what to do, conformity, hierarchy, and establishments.",
+       key_words: "Knowledge, philosophy, discover, truth, honesty, explore, freedom, travel, change, new, diverse.",
+       romance: "Sagittarius is a huge fan of philosophy and intellect and thus appreciates a mate with the same capabilities. Being that Sagittarius is always on the move and often a sporty person, mobility is a big plus with him. Both sexes need a mate that can allow them the freedom they need to explore and roam around"
      }, 
 
      {
@@ -181,7 +209,10 @@ signs = Sign.create([
        color: "black",
        stone: "onyx",
        metal: "lead",
-       related_body_part: "knees"
+       related_body_part: "knees",
+       dislikes: "Capricorn dislikes breaking the rules and old traditions set by his predecessors. Capricorn hates laziness and unproductiveness.  Never attempt to interfere with a Capricorn doing his job, he sees that as an offense of the first degree since he considers himself the only authority on the matter.",
+       key_words: "Ambition, aspiration, hard work, status, security, authority, leadership, luxury, accomplishments, reward, tags, loyal, dependable.",
+       romance: "Capricorn seeks a mate that will help him build a family and home in the tradition of his past generations.  It is important to the Capricorn that this person be accomplished and ambitious like him, although he wants to be the main partner in the relationship. Some of the Capricorn females will marry for financial or social status reasons. People who change their opinions, goals, or are generally unpredictable or very liberal need not apply."
      },
 
      {
@@ -199,7 +230,10 @@ signs = Sign.create([
        color: "sky blue",
        stone: "sapphire",
        metal: "cast",
-       related_body_part: "lower legs"
+       related_body_part: "lower legs",
+       dislikes: " Aquarius hates the normal, the narrow-minded, and the mundane.  Aquarius also dislikes the inequality and pompousness that is the natural byproduct of hierarchy, no matter which establishment we are speaking about.  Injustices and inequalities done to anyone anywhere around the world really bother Aquarius. He also cannot stand wiliness, cunningness, or people who pretend to be what they are not.",
+       key_words: "Free, tolerance, freedom, open-minded, equality, logical, humanity, ideal, unique.",
+       romance: "Aquarius is looking for a wife who can keep his interest in peek, respects herself, grants him his freedom to pursue his intellectual quests and projects in life, and will take care of the material aspects of the household such as cooking, cleaning, taking care of the children, and finding the misplaced items this nutty professor keeps misplacing. The female Aquarius is more interested in a man with intellectual and academic achievements as opposed to financial ones. She is looking for a man that will accept her free-flowing manner in life and will be okay with her spending a lot of her time with her friends or on her career"
      },
 
      {
@@ -217,7 +251,10 @@ signs = Sign.create([
        color: "ocean blue",
        stone: "amethyst",
        metal: "tin",
-       related_body_part: "feet"
+       related_body_part: "feet",
+       dislikes: "Pisces, like his symbol, hates being constricted to one place or task; he likes variety and mobility. Pisces dislikes being around people who are mean-spirited, aggressive, shallow, or have little imagination. Pisces dislikes seeing cruelty, hurt, pain, or suffering of any kind.",
+       key_words: "Emotion, feelings, compassionate, spiritual, depth, giving, expression, experience, imagination, dreams, adventure, beauty, understanding.",
+       romance: "Pisces is a hopeless romantic by nature. Pisces falls in love with the person who can create such a special feeling within him that he cannot get enough of; it doesn’t necessarily have to be the feeling of love. . The Pisces male also looks for a mate who provides him with emotional support and pushes him to accomplish his dreams. The female Pisces is the embodiment of the fair, charming, feminine, damsel in distress. She is quite sought after by many men due to her humble, sweet, accommodating manner; never demanding or pressing her man for much.  All the Pisces woman asks in return is for her man to protect and take care of her."
 
 
      }
