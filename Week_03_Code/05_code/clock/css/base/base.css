@@ -1,0 +1,48 @@
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack */
+/* Coolors Exported Palette - coolors.co/232323-bed7ec-8bfabb-8cfa89-80b56d */
+/*
+$color1: #232323; //rgba(35, 35, 35, 100)
+$color2: #bed7ec; //rgba(190, 215, 236, 100)
+$color3: #8bfabb; //rgba(139, 250, 187, 100)
+$color4: #8cfa89; //rgba(140, 250, 137, 100)
+$color5: #80b56d; //rgba(128, 181, 109, 100)
+*/
+* {
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+
+  box-sizing: border-box;
+  /* IE */
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #121212;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Exo 2', Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+  -webkit-transition: left 1.2s;
+  transition: left 1.2s;
+  background:#232323;
+  width:100%;
+  height:100%;
+  overflow-y:scroll;
+}
