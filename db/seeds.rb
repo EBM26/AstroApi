@@ -11,7 +11,7 @@ signs = Sign.create([
        karmic_stage: "New Born", 
        strengths: "Aries’ strong traits are: wonder, innocence, blind faith, bravery, energetic, diligence, and enthusiasm.", 
        weaknesses: "Aries' weaknesses are: selfishness, inconsideration, over-aggressiveness, hasty actions provoked by urges without calculating the consequences, and stubbornness.", 
-       hobbies: "Aries enjoys being active and showing off his superiority to all. Therefore, Aries loves sports, especially the kinds that are more individual rather than team sports, such as running or jumping. He also likes the martial since he is so aware of his body and his movement. His natural aggressiveness finds self-expression within the martial arts. He loves fast cars.", 
+       hobbies: "Aries enjoys being active and showing off his superiority to all. Therefore, Aries loves sports, especially the kinds that are more individual rather than team sports, such as running or jumping. He also likes the martial arts since he is so aware of his body and his movement. His natural aggressiveness finds self-expression within the martial arts. He loves fast cars.", 
        color: "red", 
        stone: "ruby", 
        metal: "iron", 

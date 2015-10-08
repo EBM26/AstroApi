@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'mongoid', '~> 4.0.0'
+gem 'mongoid', '~> 5.0.0'
 
 gem 'metamagic' # genrates different titles and meta tags in views
 
