@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'mongoid', '~> 5.0.0'
 
+gem 'better_errors', '~> 2.1.1'
+
 gem 'metamagic' # genrates different titles and meta tags in views
 
  gem 'rails-api'
