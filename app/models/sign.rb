@@ -20,5 +20,6 @@ class Sign
   field :dislikes, type: String
   field :romance, type: String
   field :key_words, type: String
+  field :life_goal, type: String
 
 end
